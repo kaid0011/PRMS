@@ -1,6 +1,6 @@
 <?php
 
-class Staff extends CI_Controller
+class Admin extends CI_Controller
 {
     public function __construct()
     {
@@ -19,6 +19,34 @@ class Staff extends CI_Controller
         $this->sitelayout->loadTemplate('pages/admin/adminmainpage', $data);
     }
 
+    public function staffrecords()
+    {
+        $data['navbar'] = 'homepage';
+        $this->sitelayout->loadTemplate('pages/admin/adminstaffrecords', $data);
+    }
     
+    public function registerstaff()
+    {
+        $data['navbar'] = 'homepage';
+        $this->sitelayout->loadTemplate('pages/admin/adminregisterstaff', $data);
+    }
+    
+    public function viewstaff()
+    {
+        $data['navbar'] = 'homepage';
+        $this->sitelayout->loadTemplate('pages/admin/adminviewstaff', $data);
+    }
+    
+    public function individualview()
+    {
+        $data['navbar'] = 'homepage';
+        $this->sitelayout->loadTemplate('pages/admin/adminindividualview', $data);
+    }
+
+    public function individualupdate()
+    {
+        $data['navbar'] = 'homepage';
+        $this->sitelayout->loadTemplate('pages/admin/adminindividualupdate', $data);
+    }
 }
 ?>

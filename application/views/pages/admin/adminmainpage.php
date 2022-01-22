@@ -15,7 +15,7 @@
             <div class="login">
                 <img id="logimg" src="<?= base_url('assets/images/admin/mainpage/staff.png')?>">
                 <h2>STAFF RECORDS</h2>
-                <a href="searchnregis1/index.html" target="_blank" type="button" class="cta">SELECT</a>
+                <a href="<?= base_url('admin/staffrecords')?>" target="_blank" type="button" class="cta">SELECT</a>
             </div>
 
 
