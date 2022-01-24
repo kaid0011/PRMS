@@ -3,7 +3,7 @@
         <h1> <strong>CLINIC</strong> </h1>
         <p class="lead "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maxime provident cum, doloremque voluptate unde! </p>
 
-        <p><a href="#ANNOUNCEMENT" target="_blank" class="btn btn-light btn-lg">More About Us</a></p>
+        <p><a href="#ANNOUNCEMENT" class="btn btn-light btn-lg">More About Us</a></p>
     </div>
 
     <div class="card m-2 card-md card-lg justify-content-center">

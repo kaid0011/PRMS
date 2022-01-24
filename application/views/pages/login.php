@@ -10,13 +10,13 @@
                 <div class="login">
                     <img id="logimg" src="<?=base_url('assets/images/login/staff.jpg')?>">
                     <h2>STAFF ACCOUNT</h2>
-                    <a href="<?=base_url('stafflogin')?>" target="_blank" type="button" class="cta">LOG IN</a>
+                    <a href="<?=base_url('stafflogin')?>" type="button" class="cta">LOG IN</a>
                 </div>
 
                 <div class="login">
                     <img id="logimg" src="<?=base_url('assets/images/login/admin.jpg')?>">
                     <h2>ADMIN ACCOUNT</h2>
-                    <a href="<?=base_url('adminlogin')?>" target="_blank" type="button" class="cta">LOG IN</a>
+                    <a href="<?=base_url('adminlogin')?>" type="button" class="cta">LOG IN</a>
                 </div>
 
 
