@@ -25,7 +25,7 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <img src="<?= base_url('assets/images/staff/viewpatient/profile.jpg') ?>" alt="profile">
+                                    <img src="<?= base_url('assets/images/staff/viewpatient/profile.jpg')?>" alt="profile" style="border-radius: 100px">
                                     <a href="#" class="user-link">Lastname, Firstname, MI.</a>
                                     <span class="user-subhead">Patient 0000</span>
                                 </td>
