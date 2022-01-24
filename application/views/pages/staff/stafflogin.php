@@ -10,7 +10,7 @@
             <br>
             <a href="<?=base_url('')?>">Forgot your password?</a>
             <br> 
-            <a href="<?=base_url('staff')?>" target="_blank" type="button" class="cta">LOG IN</a>
+            <a href="<?=base_url('staff')?>" type="button" class="cta">LOG IN</a>
 		</form>
 	</div>
 	<div class="overlay-container">

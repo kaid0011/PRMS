@@ -10,14 +10,14 @@
                 <img id="loging" src="<?= base_url('assets/images/admin/staffrecords/register.png')?>">
                 <br>
                 <br>
-                <a href="<?= base_url('admin/registerstaff')?>" target="_blank" type="button" class="cta">SELECT</a>
+                <a href="<?= base_url('admin/registerstaff')?>" type="button" class="cta">SELECT</a>
             </div>
 
             <div class="login">
                 <img id="loging" src="<?= base_url('assets/images/admin/staffrecords/view.png')?>">
                 <br>
                 <br>
-                <a href="<?= base_url('admin/viewstaff')?>" target="_blank" type="button" class="cta">SELECT</a>
+                <a href="<?= base_url('admin/viewstaff')?>" type="button" class="cta">SELECT</a>
             </div>
 
 
